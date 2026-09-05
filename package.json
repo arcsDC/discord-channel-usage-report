@@ -1,0 +1,18 @@
+{
+  "name": "discord-channel-usage-report",
+  "version": "1.0.0",
+  "description": "A Discord bot that generates a text report of message counts per channel over a configurable time window.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
